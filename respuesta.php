@@ -34,7 +34,7 @@ try {
     // Ejemplo: consulta sencilla
     $stmt = $pdo->query('SELECT * FROM prueba;');
     $fila = $stmt->fetch();
-    echo "Conectado correctamenteeee. Hora del servidor: " . $fila["Id"];
+    echo "Conectadooooo correctamenteeee. Hora del servidor: " . $fila["Id"];
 } catch (PDOException $e) {
     error_log('Error de conexión PDO: ' . $e->getMessage());
     echo "Error al conectar con la base de datos: " . htmlspecialchars($e->getMessage());
