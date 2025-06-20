@@ -34,7 +34,7 @@ try {
     // Ejemplo: consulta sencilla
     $stmt = $pdo->query('SELECT * FROM prueba;');
     $fila = $stmt->fetch();
-    echo "Primer registro: " . $fila["contenido"];
+    echo "Primer registro: " . $fila["contenido"]."</p>";
     $fila = $stmt->fetch();
     echo "Segundo registro: " . $fila["contenido"];
 } catch (PDOException $e) {
