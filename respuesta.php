@@ -6,7 +6,8 @@ $dbHost = getenv('DB_HOST');
 $dbName = "empresa";
 $dbUser = getenv('DB_USER');
 $dbPass = getenv('DB_PASSWORD');
-echo $dbHost
+echo getenv('DB_HOST');
+	//$dbHost
 	//."   ".$dbName."   ".$dbUser."   ".$dbPass
 
 
