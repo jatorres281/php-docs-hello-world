@@ -11,7 +11,7 @@ echo getenv('DB_HOST')."   ".getenv('DB_USER')."   ".getenv('DB_PASSWORD');
 
 
 //Conectamos con la base de datos
-$con=mysqli_connect($dbHost,$dbUser,$dbPass,dbName);
+$con=mysqli_connect($dbHost,$dbUser,$dbPass,$dbName);
 
 //Lanzamos una consulta para ver si existe algún agente con el login y passowrd escritos en el formulario
 $sql="select * from agentes where login='".$_POST['usuario']."' and password='".$_POST['contrasena']."'";
