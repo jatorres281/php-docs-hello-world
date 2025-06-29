@@ -1,4 +1,4 @@
-<font size="20"><b>CLIENTES</b></font><p>
+<font size="20"><b>CLIENTESss</b></font><p>
 
 <?php
 
@@ -6,6 +6,7 @@ $dbHost = getenv('DB_HOST');
 $dbName = "empresa";
 $dbUser = getenv('DB_USER');
 $dbPass = getenv('DB_PASSWORD');
+echo $dbHost."   ".$dbName."   ".$dbUser."   ".$dbPass
 
 
 //Conectamos con la base de datos
