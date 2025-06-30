@@ -1,4 +1,4 @@
-<font size="20"><b>CLIENTESss</b></font><p>
+<font size="20"><b>CLIENTES</b></font><p>
 
 <?php
 
