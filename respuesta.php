@@ -1,9 +1,9 @@
-<font size="20"><b>CLIENTEaaaS</b></font><p>
+<font size="20"><b>CLIENTEaaggggaS</b></font><p>
 
 <?php
 
 //Conectamos con la base de datos
-$con=mysqli_connect("mysql-cefire01-juan.mysql.database.azure.com","cefire","Alex$1503","empresa");
+$con=mysqli_connect("mysql-cefire01-juan.mysql.database.azure.com","cefire","Alex1503","empresa");
 
 //Lanzamos una consulta para ver si existe algún agente con el login y passowrd escritos en el formulario
 $sql="select * from agentes where login='".$_POST['usuario']."' and password='".$_POST['contrasena']."'";
